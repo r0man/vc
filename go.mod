@@ -1,8 +1,8 @@
 module github.com/steveyegge/vc
 
-go 1.25.0
+go 1.24
 
-toolchain go1.25.3
+toolchain go1.24.7
 
 require (
 	github.com/anthropics/anthropic-sdk-go v1.14.0
@@ -40,6 +40,3 @@ require (
 	modernc.org/memory v1.11.0 // indirect
 	modernc.org/sqlite v1.38.2 // indirect
 )
-
-// Local development: use local beads for testing changes
-replace github.com/steveyegge/beads => /Users/stevey/src/beads
